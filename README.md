@@ -23,4 +23,4 @@ Requirements
 
 License
 ---
-ZLSwipeableView is available under MIT license. See the LICENSE file for more info.
+HZTreeLableView is available under MIT license. See the LICENSE file for more info.
