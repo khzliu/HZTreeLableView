@@ -6,26 +6,14 @@ Preview
 ###第一级列表
 ![一](Previews/levelOne.png)
 ###第二级列表
-![二](Previews/swipeCancel.gif)
+![二](Previews/levelTwo.png)
 ###第三级列表
-![三](Previews/swipeLeft.gif)
+![三](Previews/levelThree.png)
 
 
 Usage
 ---
 Check out the [demo app](https://github.com/khzliu/HZTreeLableView/archive/master.zip) for an example.
-
-
-
-~~~
-
-To swipe the top view programmatically:
-~~~objective-c
-
-~~~
-
-To discard all views and reload programmatically:
-~~~objective-c
 
 
 Requirements
