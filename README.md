@@ -3,14 +3,13 @@ HZTreeLableView
 树形下拉列表
 Preview
 ---
-###Swipe
-![swipe](Previews/swipe.gif)
-###Swipe Cancel
-![cancel](Previews/swipeCancel.gif)
-###Swipe Programmatically
-![swipeLeft](Previews/swipeLeft.gif)
-###Swipe Programmatically II
-![swipeLeftRight](Previews/swipeLeftRight.gif)
+###第一级列表
+![一](Previews/levelOne.png)
+###第二级列表
+![二](Previews/swipeCancel.gif)
+###第三级列表
+![三](Previews/swipeLeft.gif)
+
 
 Usage
 ---
