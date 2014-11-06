@@ -10,9 +10,7 @@
 		031FA7C41A08BCBB005F7620 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7C31A08BCBB005F7620 /* main.m */; };
 		031FA7C71A08BCBB005F7620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7C61A08BCBB005F7620 /* AppDelegate.m */; };
 		031FA7CA1A08BCBB005F7620 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7C91A08BCBB005F7620 /* ViewController.m */; };
-		031FA7CD1A08BCBB005F7620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7CB1A08BCBB005F7620 /* Main.storyboard */; };
 		031FA7CF1A08BCBB005F7620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7CE1A08BCBB005F7620 /* Images.xcassets */; };
-		031FA7D21A08BCBB005F7620 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7D01A08BCBB005F7620 /* LaunchScreen.xib */; };
 		031FA7DE1A08BCBB005F7620 /* HZTreeLabelViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7DD1A08BCBB005F7620 /* HZTreeLabelViewDemoTests.m */; };
 		031FA7EC1A08BE85005F7620 /* HZTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7EA1A08BE6E005F7620 /* HZTreeCell.m */; };
 		031FA7F01A08BEA7005F7620 /* HZNodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7EE1A08BEA7005F7620 /* HZNodeCell.m */; };
@@ -45,9 +43,7 @@
 		031FA7C61A08BCBB005F7620 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		031FA7C81A08BCBB005F7620 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		031FA7C91A08BCBB005F7620 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		031FA7CC1A08BCBB005F7620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		031FA7CE1A08BCBB005F7620 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		031FA7D11A08BCBB005F7620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		031FA7D71A08BCBB005F7620 /* HZTreeLabelViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZTreeLabelViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031FA7DC1A08BCBB005F7620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031FA7DD1A08BCBB005F7620 /* HZTreeLabelViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTreeLabelViewDemoTests.m; sourceTree = "<group>"; };
@@ -114,9 +110,7 @@
 				031FA7C61A08BCBB005F7620 /* AppDelegate.m */,
 				031FA7C81A08BCBB005F7620 /* ViewController.h */,
 				031FA7C91A08BCBB005F7620 /* ViewController.m */,
-				031FA7CB1A08BCBB005F7620 /* Main.storyboard */,
 				031FA7CE1A08BCBB005F7620 /* Images.xcassets */,
-				031FA7D01A08BCBB005F7620 /* LaunchScreen.xib */,
 				031FA7C11A08BCBB005F7620 /* Supporting Files */,
 			);
 			path = HZTreeLabelViewDemo;
@@ -260,9 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031FA7CD1A08BCBB005F7620 /* Main.storyboard in Resources */,
 				034030DD1A0A1A1700077F8C /* HZTreeCell.xib in Resources */,
-				031FA7D21A08BCBB005F7620 /* LaunchScreen.xib in Resources */,
 				031FA7CF1A08BCBB005F7620 /* Images.xcassets in Resources */,
 				031FA7F11A08BEA7005F7620 /* HZNodeCell.xib in Resources */,
 				034030DC1A0A04CA00077F8C /* area.plist in Resources */,
@@ -314,25 +306,6 @@
 			targetProxy = 031FA7D81A08BCBB005F7620 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		031FA7CB1A08BCBB005F7620 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				031FA7CC1A08BCBB005F7620 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		031FA7D01A08BCBB005F7620 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				031FA7D11A08BCBB005F7620 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		031FA7DF1A08BCBB005F7620 /* Debug */ = {
@@ -415,7 +388,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HZTreeLabelViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -425,7 +400,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HZTreeLabelViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

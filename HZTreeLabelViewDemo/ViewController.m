@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
+    
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"area" ofType:@"plist"];
     HZTreeTableViewController *tableVC = [[HZTreeTableViewController alloc] initWithPlistPath:plistPath];
     [tableVC setTitle:@"树形多级列表Demo"];
