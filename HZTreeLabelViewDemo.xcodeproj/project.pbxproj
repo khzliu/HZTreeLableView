@@ -14,6 +14,17 @@
 		031FA7CF1A08BCBB005F7620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7CE1A08BCBB005F7620 /* Images.xcassets */; };
 		031FA7D21A08BCBB005F7620 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7D01A08BCBB005F7620 /* LaunchScreen.xib */; };
 		031FA7DE1A08BCBB005F7620 /* HZTreeLabelViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7DD1A08BCBB005F7620 /* HZTreeLabelViewDemoTests.m */; };
+		031FA7EC1A08BE85005F7620 /* HZTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7EA1A08BE6E005F7620 /* HZTreeCell.m */; };
+		031FA7F01A08BEA7005F7620 /* HZNodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7EE1A08BEA7005F7620 /* HZNodeCell.m */; };
+		031FA7F11A08BEA7005F7620 /* HZNodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7EF1A08BEA7005F7620 /* HZNodeCell.xib */; };
+		031FA7F41A08C1BA005F7620 /* HZTreeLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7F31A08C1BA005F7620 /* HZTreeLabelNode.m */; };
+		031FA7F71A08C8C7005F7620 /* HZTreeLeafCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 031FA7F61A08C8C7005F7620 /* HZTreeLeafCellModel.m */; };
+		031FA7FD1A08D999005F7620 /* 对勾_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7FC1A08D999005F7620 /* 对勾_03@2x.png */; };
+		031FA7FF1A08DA56005F7620 /* 向左灰箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7FE1A08DA56005F7620 /* 向左灰箭头@2x.png */; };
+		034030DC1A0A04CA00077F8C /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 034030DB1A0A04CA00077F8C /* area.plist */; };
+		034030DD1A0A1A1700077F8C /* HZTreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031FA7EB1A08BE6E005F7620 /* HZTreeCell.xib */; };
+		034030E41A0A262A00077F8C /* HZTreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034030E21A0A262A00077F8C /* HZTreeTableViewController.m */; };
+		034030E51A0A262A00077F8C /* HZTreeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034030E31A0A262A00077F8C /* HZTreeTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,23 @@
 		031FA7D71A08BCBB005F7620 /* HZTreeLabelViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZTreeLabelViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031FA7DC1A08BCBB005F7620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031FA7DD1A08BCBB005F7620 /* HZTreeLabelViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTreeLabelViewDemoTests.m; sourceTree = "<group>"; };
+		031FA7E81A08BD77005F7620 /* HZTreeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTreeLabel.h; sourceTree = "<group>"; };
+		031FA7E91A08BE6E005F7620 /* HZTreeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTreeCell.h; sourceTree = "<group>"; };
+		031FA7EA1A08BE6E005F7620 /* HZTreeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTreeCell.m; sourceTree = "<group>"; };
+		031FA7EB1A08BE6E005F7620 /* HZTreeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HZTreeCell.xib; sourceTree = "<group>"; };
+		031FA7ED1A08BEA7005F7620 /* HZNodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNodeCell.h; sourceTree = "<group>"; };
+		031FA7EE1A08BEA7005F7620 /* HZNodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNodeCell.m; sourceTree = "<group>"; };
+		031FA7EF1A08BEA7005F7620 /* HZNodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZNodeCell.xib; sourceTree = "<group>"; };
+		031FA7F21A08C1BA005F7620 /* HZTreeLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTreeLabelNode.h; sourceTree = "<group>"; };
+		031FA7F31A08C1BA005F7620 /* HZTreeLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTreeLabelNode.m; sourceTree = "<group>"; };
+		031FA7F51A08C8C7005F7620 /* HZTreeLeafCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTreeLeafCellModel.h; sourceTree = "<group>"; };
+		031FA7F61A08C8C7005F7620 /* HZTreeLeafCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTreeLeafCellModel.m; sourceTree = "<group>"; };
+		031FA7FC1A08D999005F7620 /* 对勾_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对勾_03@2x.png"; sourceTree = "<group>"; };
+		031FA7FE1A08DA56005F7620 /* 向左灰箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向左灰箭头@2x.png"; sourceTree = "<group>"; };
+		034030DB1A0A04CA00077F8C /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = area.plist; path = HZTreeLabelViewDemo/area.plist; sourceTree = SOURCE_ROOT; };
+		034030E11A0A262A00077F8C /* HZTreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTreeTableViewController.h; sourceTree = "<group>"; };
+		034030E21A0A262A00077F8C /* HZTreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTreeTableViewController.m; sourceTree = "<group>"; };
+		034030E31A0A262A00077F8C /* HZTreeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZTreeTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +91,7 @@
 		031FA7B51A08BCBB005F7620 = {
 			isa = PBXGroup;
 			children = (
+				031FA7E71A08BD14005F7620 /* HZTreeLabelView */,
 				031FA7C01A08BCBB005F7620 /* HZTreeLabelViewDemo */,
 				031FA7DA1A08BCBB005F7620 /* HZTreeLabelViewDemoTests */,
 				031FA7BF1A08BCBB005F7620 /* Products */,
@@ -117,6 +146,38 @@
 				031FA7DC1A08BCBB005F7620 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		031FA7E71A08BD14005F7620 /* HZTreeLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				031FA7FB1A08D8C6005F7620 /* images */,
+				031FA7E81A08BD77005F7620 /* HZTreeLabel.h */,
+				031FA7E91A08BE6E005F7620 /* HZTreeCell.h */,
+				031FA7EA1A08BE6E005F7620 /* HZTreeCell.m */,
+				031FA7EB1A08BE6E005F7620 /* HZTreeCell.xib */,
+				031FA7ED1A08BEA7005F7620 /* HZNodeCell.h */,
+				031FA7EE1A08BEA7005F7620 /* HZNodeCell.m */,
+				031FA7EF1A08BEA7005F7620 /* HZNodeCell.xib */,
+				031FA7F21A08C1BA005F7620 /* HZTreeLabelNode.h */,
+				031FA7F31A08C1BA005F7620 /* HZTreeLabelNode.m */,
+				031FA7F51A08C8C7005F7620 /* HZTreeLeafCellModel.h */,
+				031FA7F61A08C8C7005F7620 /* HZTreeLeafCellModel.m */,
+				034030E11A0A262A00077F8C /* HZTreeTableViewController.h */,
+				034030E21A0A262A00077F8C /* HZTreeTableViewController.m */,
+				034030E31A0A262A00077F8C /* HZTreeTableViewController.xib */,
+				034030DB1A0A04CA00077F8C /* area.plist */,
+			);
+			path = HZTreeLabelView;
+			sourceTree = "<group>";
+		};
+		031FA7FB1A08D8C6005F7620 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				031FA7FE1A08DA56005F7620 /* 向左灰箭头@2x.png */,
+				031FA7FC1A08D999005F7620 /* 对勾_03@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				031FA7CD1A08BCBB005F7620 /* Main.storyboard in Resources */,
+				034030DD1A0A1A1700077F8C /* HZTreeCell.xib in Resources */,
 				031FA7D21A08BCBB005F7620 /* LaunchScreen.xib in Resources */,
 				031FA7CF1A08BCBB005F7620 /* Images.xcassets in Resources */,
+				031FA7F11A08BEA7005F7620 /* HZNodeCell.xib in Resources */,
+				034030DC1A0A04CA00077F8C /* area.plist in Resources */,
+				034030E51A0A262A00077F8C /* HZTreeTableViewController.xib in Resources */,
+				031FA7FD1A08D999005F7620 /* 对勾_03@2x.png in Resources */,
+				031FA7FF1A08DA56005F7620 /* 向左灰箭头@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				031FA7CA1A08BCBB005F7620 /* ViewController.m in Sources */,
+				031FA7F01A08BEA7005F7620 /* HZNodeCell.m in Sources */,
+				031FA7F41A08C1BA005F7620 /* HZTreeLabelNode.m in Sources */,
+				031FA7F71A08C8C7005F7620 /* HZTreeLeafCellModel.m in Sources */,
+				031FA7EC1A08BE85005F7620 /* HZTreeCell.m in Sources */,
 				031FA7C71A08BCBB005F7620 /* AppDelegate.m in Sources */,
 				031FA7C41A08BCBB005F7620 /* main.m in Sources */,
+				034030E41A0A262A00077F8C /* HZTreeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +484,7 @@
 				031FA7E31A08BCBB005F7620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		031FA7E41A08BCBB005F7620 /* Build configuration list for PBXNativeTarget "HZTreeLabelViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +493,7 @@
 				031FA7E61A08BCBB005F7620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

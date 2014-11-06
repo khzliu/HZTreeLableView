@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "HZTreeLabel.h"
+#import "HZTreeTableViewController.h"
 
 @interface ViewController ()
 
@@ -14,9 +16,19 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"area" ofType:@"plist"];
+    HZTreeTableViewController *tableVC = [[HZTreeTableViewController alloc] initWithPlistPath:plistPath];
+    [tableVC setTitle:@"树形多级列表Demo"];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:tableVC];
+    [nav.navigationBar setBackgroundColor:[UIColor yellowColor]];
+    
+    [self addChildViewController:nav];
+    [self.view addSubview:nav.view];
 }
 
 - (void)didReceiveMemoryWarning {
